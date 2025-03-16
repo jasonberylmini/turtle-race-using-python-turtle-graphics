@@ -49,9 +49,9 @@ while is_game_on:
             is_game_on = False
             winning_color = turtle.pencolor()
             if winning_color == user_input:
-                print(f"You won the bet, {user_input} won the race")
+                screen.title(f"You won the bet, {user_input} won the race")
             else:
-                print(f"You lost the bet, {winning_color} won the race")
+                screen.title(f"You lost the bet, {winning_color} won the race")
 
 screen.exitonclick() # to keep the window open until we click on it.
-# screen.mainloop() # to keep the window
+screen.mainloop() # to keep the window
