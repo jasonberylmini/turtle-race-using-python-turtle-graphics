@@ -53,4 +53,5 @@ while is_game_on:
             else:
                 print(f"You lost the bet, {winning_color} won the race")
 
-screen.exitonclick()
+screen.exitonclick() # to keep the window open until we click on it.
+# screen.mainloop() # to keep the window
